@@ -1,0 +1,110 @@
+body {
+  background-color: rgba(231, 185, 163, 0.904);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: darksalmon;
+  padding: 30px 30px;
+  width: 400px;
+  border-radius: 50px;
+}
+#heading {
+  background-color: rgb(228, 126, 103);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 35px;
+  text-shadow: 50px;
+  letter-spacing: 2px;
+}
+.heading {
+  background-color: rgb(228, 126, 103);
+  border-radius: 25px;
+  margin-top: 35px;
+  padding-top: 0.5px;
+  text-align: center;
+}
+h3 {
+  padding-bottom: 15px;
+}
+
+#A {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+#B {
+  margin-left: 85px;
+  margin-right: 85px;
+}
+#C {
+  margin-left: 85px;
+  margin-right: 85px;
+}
+#D {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 0.5px;
+}
+
+.set-budget {
+  padding-top: 15px;
+}
+
+#income {
+  border-radius: 7px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 45px;
+  border-color: rgb(255, 118, 72);
+  background-color: rgba(231, 185, 163, 0.904);
+}
+.button {
+  border-radius: 7px;
+  height: 32px;
+  width: 120px;
+  margin-left: 20px;
+  border-color: rgb(255, 118, 72);
+  background-color: rgb(255, 132, 92);
+}
+#text {
+  border-radius: 7px;
+  height: 25px;
+  padding-left: 55px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: rgb(255, 118, 72);
+  background-color: rgba(231, 185, 163, 0.904);
+}
+#amount {
+  border-radius: 7px;
+  height: 25px;
+  padding-left: 55px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: rgb(255, 118, 72);
+  background-color: rgba(231, 185, 163, 0.904);
+}
+.expense-list {
+  background-color: rgba(231, 185, 163, 0.904);
+  border-radius: 25px;
+}
+.list li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding-right: 40px;
+}
+.delete-button {
+  background-color: crimson;
+  border-radius: 7px;
+  border-color: rgb(255, 0, 51);
+}
